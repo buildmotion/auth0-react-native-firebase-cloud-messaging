@@ -1,7 +1,9 @@
 # Setup
 
-
-
+- [ ] Computer
+  - [ ] PC
+    - [ ] Processor? Intel or AMD
+  - [ ] Mac
 - [ ] Prerequisites
   - [ ] Node version 8+
 - [ ] [Download](https://developer.android.com/studio/index.html#downloads) and install Android Studio
@@ -16,6 +18,21 @@
 - [ ] Create Auth0 Account
   - [ ] create tenant
   - [ ] create application
+
+## Computer
+
+### Mac? Macbook Pro?
+What kind of computer do you have access to? If you have newer Mac, then you are probablgy ready to do full mobile application development using React Native. 
+
+### Windows?
+
+If you only have access to a Windows computer, then your options of mobile developement are limited for a typical development setup.
+
+### Processors Matter?
+
+The newer Android emulators available with Android Studio target Intel processors. There are emulators for AMD processors, however, for the newer versions of Android (level), you are limited to version 25.
+
+The problem I had is that both my new laptop and my newly built desktop PC have AMD procesors. As a .NET/C#, Typescript/Angular developer, I never had any issues with my development environment. Mobile development setup (typical ones) require access to different tooling. 
 
 ## Auth0
 
@@ -81,7 +98,7 @@ Use Chocolately to install `python` and `jdk8`.
 choco install -y nodejs.install python2 jdk8
 ```
 
-> Make note of the JDK installation directory, you will need it to create the `JAVA_HOME` environment variable. Although, installed by Chocolately, the Android JDK configuration uses an internal JRE: `C:\Program Files\Android\Android Studio\jre`
+> Note: the latest version of Android Studio already contains a Java insstance. It complains if the version is not the same as being used by the emulators. Therefore, you will set `JAVA_HOME` using the path to Android's Java instance. 
 
 ```ts
 choco
@@ -144,7 +161,7 @@ The recent package changes indicate a reboot is necessary.
  Please reboot at your earliest convenience.
  ```
 
- Install the React Native CLI
+ ## Install the React Native CLI
 
  ```ts
  npm install -g react-native-cli
@@ -157,7 +174,7 @@ C:\Users\mattv\AppData\Roaming\npm\react-native -> C:\Users\mattv\AppData\Roamin
 added 41 packages from 15 contributors in 3.581s
 ```
 
-Install Android Studio
+## Install Android Studio
 
 When complete, you will get the Android Studio splash screen. Use the `Configure` dropdown to view options for the develop environment.
 
@@ -234,7 +251,9 @@ react-native run-android
 
 ## Deployment
 
-Code Push
-AppHub Deploy
-fastlane
-Hocky App
+Determine if any of the following items are useful.
+
+* Code Push
+* AppHub Deploy
+* fastlane
+* Hocky App
