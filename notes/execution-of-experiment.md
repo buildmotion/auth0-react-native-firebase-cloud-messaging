@@ -40,6 +40,16 @@ You will need to link the native module `react-native-auth0` to the application.
 react-native link react-native-auth0
 ```
 
+asdf
+
+```ts
+react-native link react-native-auth0
+rnpm-install info Linking react-native-auth0 ios dependency
+rnpm-install info Platform 'ios' module react-native-auth0 has been successfully linked
+rnpm-install info Linking react-native-auth0 android dependency
+rnpm-install info Platform 'android' module react-native-auth0 has been successfully linked
+```
+
 ### Setup Auth0 Configuration
 
 Create an environment file to contain the Auth0 configuration information.
