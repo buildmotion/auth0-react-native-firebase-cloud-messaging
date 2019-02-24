@@ -1,20 +1,14 @@
 sample/bowser/*.*
 sample/igniteApp/*.*
+/sample/igniteSampleApp/*.*
+/sample/igniteBowserApp/*.*
 
 resources/react-native-00-login/00-login/android/.project
-sample/bowserApp/android/.project
-sample/bowserApp/android/app/.classpath
-sample/bowserApp/android/app/.project
 sample/react-native-00-login/00-login/android/.project
 resources/react-native-00-login/00-login/android/.settings/org.eclipse.buildship.core.prefs
-sample/bowserApp/android/app/.settings/org.eclipse.buildship.core.prefs
-sample/bowserApp/android/.settings/org.eclipse.buildship.core.prefs
 sample/react-native-00-login/00-login/android/.settings/org.eclipse.buildship.core.prefs
-sample/testApp/android/.settings/org.eclipse.buildship.core.prefs
 sample/react-native-00-login/00-login/android/app/.classpath
 sample/react-native-00-login/00-login/android/app/.project
 sample/react-native-00-login/00-login/android/app/.settings/org.eclipse.buildship.core.prefs
 sample/rnApp/android/.project
 sample/rnApp/android/.settings/org.eclipse.buildship.core.prefs
-sample/testApp/android/.project
-sample/igniteApp/android/.project

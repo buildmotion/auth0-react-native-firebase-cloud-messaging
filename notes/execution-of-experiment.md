@@ -1,6 +1,31 @@
 # Execution of Experiment
 
-# Auth0 Account
+## Prerequisites
+
+- [ ] Environment Setup
+  - [ ] Tool Installation
+    - [ ] Node (version 8 or greater)
+    - [ ] Android Studio
+    - [ ] Java (installed with Android Studio)
+    - [ ] React Native CLI
+  - [ ] Install Android Platforms and Tools
+  - [ ] Configure Environment Variables
+
+- [ ] Create New React Native application
+  - [ ] Use CLI: `react-native init rnApp`
+  - [ ] Determine which AVD to run
+  - [ ] Run Android Virtual Device
+  - [ ] Verify React Native application runs
+
+- [ ] Create Auth0 Account
+  - [ ] Create Application
+    - [ ] Need configuration information from application settings
+  - [ ] Enable Social connection for Google authentication.
+
+
+## Create a Login Page
+
+## Auth0 Account
 
 Created a new Auth0 account and followed the prompts to create my React Native application. The Auth0 website provides a sample application that you can download as well. 
 
