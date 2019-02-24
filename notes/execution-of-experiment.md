@@ -23,7 +23,21 @@
   - [ ] Enable Social connection for Google authentication.
 
 
-## Create a Login Page
+## Create Application Screens
+
+The application will require (2) screens to allow for the authentication features. Additionally, 
+we will require navigation functionality as well. Create the items in a new folder `app/screens`. 
+
+* login
+* account
+
+## Navigation
+
+To provide navigation, install the navigation package listed below. 
+
+```ts
+npm install -S native-react-navigation
+```
 
 ## Auth0 Account
 
