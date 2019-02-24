@@ -1,3 +1,6 @@
+sample/bowser/*.*
+sample/igniteApp/*.*
+
 resources/react-native-00-login/00-login/android/.project
 sample/bowserApp/android/.project
 sample/bowserApp/android/app/.classpath
