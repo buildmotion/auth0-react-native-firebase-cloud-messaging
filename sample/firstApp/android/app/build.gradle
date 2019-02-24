@@ -79,7 +79,7 @@ project.ext.react = [
 apply from: "../../node_modules/react-native/react.gradle"
 
 allprojects {
-     buildDir = "D:/tmp/${rootProject.name}/${project.name}"
+     buildDir = "B:/tmp/${rootProject.name}/${project.name}"
 }
 
 /**
