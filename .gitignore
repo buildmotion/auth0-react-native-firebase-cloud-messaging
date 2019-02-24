@@ -14,3 +14,4 @@ sample/react-native-00-login/00-login/android/app/.settings/org.eclipse.buildshi
 sample/rnApp/android/.project
 sample/rnApp/android/.settings/org.eclipse.buildship.core.prefs
 sample/testApp/android/.project
+sample/igniteApp/android/.project
