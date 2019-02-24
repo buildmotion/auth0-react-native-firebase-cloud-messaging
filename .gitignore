@@ -1,7 +1,7 @@
 sample/bowser/*.*
 sample/igniteApp/*.*
-/sample/igniteSampleApp/*.*
-/sample/igniteBowserApp/*.*
+sample/igniteSampleApp/*.*
+sample/igniteBowserApp/*.*
 
 resources/react-native-00-login/00-login/android/.project
 sample/react-native-00-login/00-login/android/.project
@@ -12,3 +12,7 @@ sample/react-native-00-login/00-login/android/app/.project
 sample/react-native-00-login/00-login/android/app/.settings/org.eclipse.buildship.core.prefs
 sample/rnApp/android/.project
 sample/rnApp/android/.settings/org.eclipse.buildship.core.prefs
+
+sample/igniteBrowserApp/
+
+sample/igniteSampleApp/

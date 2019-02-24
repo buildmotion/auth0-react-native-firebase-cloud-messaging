@@ -25,11 +25,8 @@
 
 ## Create Application Screens
 
-The application will require (2) screens to allow for the authentication features. Additionally, 
-we will require navigation functionality as well. Create the items in a new folder `app/screens`. 
-
-* login
-* account
+The application will require a _login_ screen to allow for the authentication with Auth0. Additionally, 
+we will require navigation functionality as well. Create the `Login` screen in a new folder `app/screens`.
 
 ## Navigation
 
