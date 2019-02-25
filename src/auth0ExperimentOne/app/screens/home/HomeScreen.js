@@ -13,7 +13,8 @@ import styles from "./HomeScreen.styles";
 export default class HomeScreen extends Component { 
     render() {
         return (
-          <View style={styles.headerColorStyle}>
+          // <View style={styles.headerColorStyle}>
+          <View>
             <Text>Welcome Home!</Text>
           </View>
         );

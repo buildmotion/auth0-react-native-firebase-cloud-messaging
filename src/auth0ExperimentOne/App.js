@@ -24,7 +24,7 @@ export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>Welcome to Auth0 Experiment One!</Text>
+        <Text style={styles.welcome}>Auth0 :: Experiment One</Text>
         <Root />
       </View>
     );

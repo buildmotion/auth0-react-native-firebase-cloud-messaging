@@ -80,8 +80,11 @@ export default class LoginScreen extends Component {
           color="#05a5d1"
           animating={!this.state.hasInitialized}
         />
-        {this.state.hasInitialized && (
-          <Button onPress={this.authorize} title="Login" color={buttonStyle} />
+         {/* {this.state.hasInitialized && (
+          <Button onPress={this.authorize()} title="Login" color={buttonStyle} />
+        )} */}
+        {true && (
+          <Button onPress={this.authorize()} title="Login" color={buttonStyle} />
         )}
       </View>
     );
